@@ -1,32 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align:  center;
+  background-image: url('http://www.tokkoro.com/picsup/1374452-salt.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  font-family: 'Black And White Picture', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.Header {
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.RecipeTitle {
+  min-width: 600px;
+  max-width: 600px;
+  color: black;
+  font-size: 20px;
+}
+.Featured {
+  min-width: 600px;
+  max-width: 600px;
+  color: #e6ffff;
+  flex-direction: row
+}
+.MasterNavBar {
+  margin-top: 78px;
+  max-height: 756px;
+  font-family: 'Black And White Picture', sans-serif;
+  color: black;
+}
+.NavBar {
+  min-width: 275px;
+  max-width: 275px;
+  text-align: right;
+  color: black;
+}
+.NavButtons {
+  font-size: 30px;
+  font-family: 'Black And White Picture', sans-serif;
+  color: black;
+  background: none;
+}
+.Recipe {
+}
+.menu {
+  background: none;
+  font-size: 35px;
+  border-radius: 10px;
+  color: #e6ffff;
+  font-family: 'Black And White Picture', sans-serif;
+
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.featuredImage {
+  width: 175px;
+  height: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.SaltBae{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.contact {
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ingredientsList {
+  text-align: left;
+  margin-top: 78px;
+  padding-left: 100px;
+  min-width: 200px;
+  min-height: 756px;
+  max-height: 756px;
+  font-size: 40px;
+  color: black;
 }
